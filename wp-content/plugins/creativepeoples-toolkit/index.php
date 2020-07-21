@@ -237,9 +237,24 @@ final class Cp_Toolkit_Extenstion {
 
 		// Include Widget files
 		require_once( __DIR__ . '/widgets/hero-area.php');  
+		require_once( __DIR__ . '/widgets/about.php');  
+		require_once( __DIR__ . '/widgets/why.php');  
+		require_once( __DIR__ . '/widgets/we-need.php');  
+		require_once( __DIR__ . '/widgets/step-area.php');  
+		require_once( __DIR__ . '/widgets/business.php');  
+		require_once( __DIR__ . '/widgets/contact.php');  
+		require_once( __DIR__ . '/widgets/footer-infobox.php');  
 
 		// Register widget
 		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Hero_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \About_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Why_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \We_Need_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \Steps_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \business_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \contact_Area_Widget() );  
+		\Elementor\Plugin::instance()->widgets_manager->register_widget_type( new \footer_info_Area_Widget() );  
+
 
 	}
 

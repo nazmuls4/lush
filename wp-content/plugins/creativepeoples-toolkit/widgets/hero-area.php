@@ -208,7 +208,7 @@ class Hero_Area_Widget extends \Elementor\Widget_Base {
         						<?php echo $hero_description ?>
         					</div>
         					<div class="site-btn hero-btn">
-        						<a <?php echo $target ?> <?php echo $nofollow ?> href="<?php echo $btn_links ?>"><?php echo $btn_lebel ?></a>
+        						<a <?php echo $target ?> <?php echo $nofollow ?> href="<?php echo $btn_links['url'] ?>"><?php echo $btn_lebel ?></a>
         					</div>
         				</div>
         			</div>
