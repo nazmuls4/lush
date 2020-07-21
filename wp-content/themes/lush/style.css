@@ -1,0 +1,228 @@
+/*!
+Theme Name: Lush
+Theme URI: http://underscores.me/
+Author: creativepeoples
+Author URI: http://creativepeoples.online/
+Description: Description
+Version: 1.0.0
+Tested up to: 5.4
+Requires PHP: 5.6
+License: GNU General Public License v2 or later
+License URI: LICENSE
+Text Domain: lush
+Tags: custom-background, custom-logo, custom-menu, featured-images, threaded-comments, translation-ready
+
+This theme, like WordPress, is licensed under the GPL.
+Use it to make something cool, have fun, and share what you've learned.
+
+Lush is based on Underscores https://underscores.me/, (C) 2012-2020 Automattic, Inc.
+Underscores is distributed under the terms of the GNU GPL v2 or later.
+
+Normalizing styles have been helped along thanks to the fine work of
+Nicolas Gallagher and Jonathan Neal https://necolas.github.io/normalize.css/
+*/
+
+/*--------------------------------------------------------------
+>>> TABLE OF CONTENTS:
+----------------------------------------------------------------
+/* 1. Theme default css */
+
+@import url('https://fonts.googleapis.com/css2?family=Karla:ital,wght@0,400;0,700;1,400;1,700&family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair+Display:ital,wght@0,400;0,500;0,600;0,669;0,700;0,800;0,900;1,400;1,500;1,600;1,669;1,700;1,800;1,900&display=swap');
+
+body {
+    font-family: 'Karla', sans-serif;
+    font-weight: normal;
+    font-style: normal;
+    font-size: 18px;
+    line-height: 1.7;
+    color: #313441;
+    background: #ffffff;
+}
+
+
+.Karla{
+	font-family: 'Karla', sans-serif;
+}
+
+.Playfair{
+	font-family: 'Playfair Display', serif;
+}
+
+
+.Lato{
+ 	font-family: 'Lato', sans-serif;
+} 
+
+
+.img {
+    max-width: 100%;
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+.f-left {
+    float: left
+}
+
+.f-right {
+    float: right
+}
+
+.fix {
+    overflow: hidden
+}
+
+a,
+.button {
+    -webkit-transition: all 0.3s ease-out 0s;
+    transition: all 0.3s ease-out 0s;
+}
+
+a:focus,
+.button:focus {
+    text-decoration: none;
+    outline: none;
+}
+
+a:focus,
+a:hover,
+.portfolio-cat a:hover,
+.footer -menu li a:hover { 
+    text-decoration: none;
+}
+
+a,
+button { 
+    outline: medium none;
+}
+
+button:focus,
+input:focus,
+input:focus,
+textarea,
+textarea:focus {
+    outline: 0
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+    font-family: 'Playfair Display', serif;
+    color: #313441;
+    margin: 0px;
+    font-style: normal;
+    font-weight: 700;
+    text-transform: normal;
+}
+
+h1 a,
+h2 a,
+h3 a,
+h4 a,
+h5 a,
+h6 a {
+    color: inherit;
+}
+
+ul {
+    margin: 0px;
+    padding: 0px;
+    list-style: none
+}
+
+p {
+    margin-bottom: 15px;
+}
+
+hr {
+    border-bottom: 1px solid #eceff8;
+    border-top: 0 none;
+    margin: 30px 0;
+    padding: 0;
+}
+
+label {
+    color: #444;
+    cursor: pointer;
+    font-size: 14px;
+    font-weight: 400;
+}
+
+*::-moz-selection {
+    background: #d6b161;
+    color: #fff;
+    text-shadow: none;
+}
+
+::-moz-selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+::selection {
+    background: #444;
+    color: #fff;
+    text-shadow: none;
+}
+
+*::-moz-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+*::-webkit-input-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+*:-ms-input-placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+*::placeholder {
+    color: #555555;
+    font-size: 14px;
+    opacity: 1;
+    -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=100)";
+}
+
+.position-relative {
+    position: relative
+}
+
+.separator {
+    border-top: 1px solid #f2f2f2
+}
+
+input[type="text"],
+input[type="url"],
+textarea,
+input[type="email"],
+input[type="password"],
+input[type="tel"],
+input[type="submit"],
+input[type="search"] {
+    padding: 20px 30px;
+    border: none;
+    border-radius: 5px;
+}
+ 
+ 
+
+img {
+    max-width: 100%;
+}
+
+
+
