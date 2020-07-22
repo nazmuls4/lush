@@ -15,8 +15,14 @@
 <fotoer class="footer-area position-relative">
 
 
+
 	<?php if (is_active_sidebar( 'footer-sidebar' )): ?> 
 		<div class="footer-widget-area pt-110 position-relative">
+
+			<div class="footer-right-shape-area">
+				<img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-right-shape.png" alt="">
+			</div>
+
 			<div class="container">
 				<div class="row"> 
 					<?php  dynamic_sidebar( 'footer-sidebar' ); ?>
@@ -48,9 +54,7 @@
 			</div>
 		</div>
 	</div>
-	<div class="footer-right-shape">
-		<img src="<?php echo get_template_directory_uri(); ?>/assets/img/footer-right-shape.png" alt="">
-	</div>
+	
 </fotoer>
 <!-- footer area end -->
  

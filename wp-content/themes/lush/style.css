@@ -205,18 +205,6 @@ label {
     border-top: 1px solid #f2f2f2
 }
 
-input[type="text"],
-input[type="url"],
-textarea,
-input[type="email"],
-input[type="password"],
-input[type="tel"],
-input[type="submit"],
-input[type="search"] {
-    padding: 20px 30px;
-    border: none;
-    border-radius: 5px;
-}
  
  
 
@@ -278,7 +266,52 @@ header.header_area ul li.FRANCHISE a {
     color: #FFFFFF;
 }
 
+header.header_area.sticky {
+    position: fixed;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: auto;
+    z-index: 555;
+    background: #fff;
+    -webkit-animation: sticky-menu 1s;
+     animation: sticky-menu 1s;
+      -webkit-transition: .3s;
+     transition: .3s;
+}
  
+ @-webkit-keyframes sticky {
+     0% {
+         top: -500px;
+    }
+     100% {
+         top: 0;
+    }
+}
+ @keyframes sticky {
+     0% {
+         top: -500px;
+    }
+     100% {
+         top: 0;
+    }
+}
+ @-webkit-keyframes sticky-menu {
+     0% {
+         top: -200px;
+    }
+     100% {
+         top: 0;
+    }
+}
+ @keyframes sticky-menu {
+     0% {
+         top: -200px;
+    }
+     100% {
+         top: 0;
+    }
+}
 
  /* hero area css */
 
@@ -481,4 +514,358 @@ section.why-area:before {
 
 .why-icon-inner img {
     width: 17px;
+}
+
+
+
+
+/* wee need css  */
+
+section.we-needs {
+    padding: 210px 0 170px;
+}
+
+section.we-needs .site-btn {
+    margin-top: 30px;
+}
+
+
+.we-need-thumbnail img {
+    border: 14px solid #C4BBB6 !important;
+}
+
+.we-nned-area-footer-thumbanail {
+    position: absolute;
+    left: 0;
+    bottom: 0;
+}
+
+
+
+/* step area ccss */
+
+section.steps-area.position-relative {
+    max-width: 90%;
+    margin: 0 auto;
+    z-index: 1;
+    background: #EDADB1;
+    padding: 95px 0 148px;
+}
+
+.steps-area-shape {
+    position: absolute;
+    left: 0;
+    top: 0;
+    max-width: 80%;
+}
+
+.steps-list-area {
+    padding: 24px;
+    background: #fff;
+    margin-bottom: 40px;
+    position: relative;
+        min-height: 335px;
+}
+
+.steps-list-area {
+    padding-top: 45px;
+}
+
+.steps-counte-number {
+    position: absolute;
+    left: -25px;
+    top: -20px;
+    width: 52px;
+    height: 52px;
+    text-align: center;
+    background: #fff;
+    border: 2px solid #C4BBB6;
+    border-radius: 50%;
+    z-index: 1;
+}
+
+.steps-counte-number h2 {
+    font-size: 24px;
+    line-height: 46px;
+    color: #fff;
+}
+
+.steps-counte-number:before {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    content: "";
+    background: #222;
+    width: 40px;
+    height: 40px;
+    margin-left: -20px;
+    margin-top: -20px;
+    z-index: -1;
+    border-radius: 50%;
+}
+
+section.steps-area .section-title {
+    margin-bottom: 65px;
+}
+ 
+
+.stepos-icon img.step-arrow {
+    position: absolute;
+    width: auto;
+    margin: auto;
+    right: 25px;
+    top: 60px;
+}
+
+.stepos-icon img {
+    margin-bottom: 30px;
+    width: 60px;
+}
+
+
+.steps-list-area h3 {
+    font-size: 23px;
+    margin-bottom: 15px;
+    line-height: 1.4;
+}
+
+
+.stpes-inner-content {
+    font-size: 16px;
+}
+
+.steps-list-area.steps-list-area-5 .stepos-icon img.step-arrow {
+    right: auto;
+    left: 25px;
+}
+
+.steps-list-area.steps-list-area-6 .stepos-icon img.step-arrow {
+    right: auto;
+    left: 25px;
+}
+
+.steps-list-area.steps-list-area-3 .stepos-icon img.step-arrow {
+    top: 35px;
+}
+
+/* business area css */
+
+.we-need-thumbnail.business-area-thumbanail {}
+
+.we-need-thumbnail.business-area-thumbanail img.business-small-thumbnail {
+    position: absolute;
+    right: -185px;
+    bottom: -50px;
+    border-color: #fff !important;
+}
+
+
+/* contact area css */
+
+section.contact-area {
+        background-position:0% ;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+
+section.contact-area .section-title {
+    margin-bottom: 55px;
+}
+
+
+input[type="text"], input[type="url"], textarea, input[type="email"], input[type="password"], input[type="tel"], input[type="submit"], input[type="search"], button[type="submit"] {
+    line-height: 70px;
+    padding: 0 15px;
+    border: 1px solid #313441;
+    margin-bottom: 50px;
+}
+
+button {}
+
+button[type="submit"] {
+    border: none;
+    padding: 0 45px;
+    background: #313441;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    transition: .3s;
+}
+
+.contact-form-area-inner input, .contact-form-area-inner textarea {
+    width: 100%;
+}
+
+.contact-form-area-inner textarea {
+    height: 155px;
+}
+ 
+
+section.contact-area .container-fluid {
+    max-width: 1650px;
+}
+
+
+.contact-form-area-top-shape {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    z-index: -1;
+}
+
+.contact-form-area-top-left-shape {
+    position: absolute;
+    left: 0;
+    top: -100px;
+    z-index: -1;
+}
+
+
+/* footer inforbox area css */
+
+
+section.footer-infobox-area {
+    padding: 160px 0 0px;
+}
+
+.infobox-shape {
+    position: absolute;
+    left: 0;
+    top: 25%;
+}
+
+section.footer-infobox-area .section-title.footer-infobox-title {
+    margin-bottom: 40px;
+}
+
+section.footer-infobox-area .section-title.footer-infobox-title div {
+    margin-top: 25px;
+}
+ 
+
+
+.foonter-infobox {
+    background: #FFF5F5;
+    padding: 40px 5px;
+    position: relative;
+    margin-bottom: 35px;
+}
+
+.infobox-title h2 {
+    font-size: 30px;
+    font-weight: bold;
+    padding-bottom: 60px;
+    position: relative;
+}
+
+.infobox-title h2:after {
+    position: absolute;
+    left: 50%;
+    bottom: 30px;
+    content: "";
+    height: 1px;
+    width: 140px;
+    border: 1px dashed #313441;
+    margin-left: -70px;
+}
+
+.infobox-content ul li {
+    display: block;
+    margin-bottom: 25px;
+}
+
+.infobox-content ul li h3 {
+    font-size: 26px;
+    font-weight: bold;
+}
+
+
+.foonter-infobox {
+    min-height: 435px;
+}
+.foonter-infobox.text-center.infobox-items-4, .foonter-infobox.text-center.infobox-items-5, .foonter-infobox.text-center.infobox-items-6 {
+    min-height: auto;
+}
+
+
+.footer-widget {}
+
+.footer-widget h3.widget-title, .footer-widget h3 {
+    text-transform: capitalize;
+    margin-bottom: 45px;
+}
+
+.footer-widget ul li {
+    display: block;
+    line-height: 2.18;
+}
+
+.footer-widget ul li a {
+    color: #313441;
+    font-size: 16px;
+}
+
+.footer-social-list a {
+    display: inline-block;
+    width: 36px;
+    height: 36px;
+    text-align: center;
+    line-height: 36px;
+    border-radius: 50%;
+    background: #fff;
+    color: #000000;
+    margin-right: 15px;
+}
+
+.footer-social-list {
+    margin-top: 25px;
+}
+
+.footer-social-list a:hover {
+    background: #C4BBB6;
+}
+
+
+
+/* footer area css */
+
+
+.row-foter-copyright-area {
+    padding: 25px 0px 40px;
+    border-top: 1px solid #313441;
+}
+
+.row-foter-copyright-area {}
+
+.footer-copyright-area p {
+    font-size: 16px;
+}
+
+
+.footer-right-shape-area {
+    position: absolute;
+    right: 0;
+    bottom: -108px;
+        max-width: 45%;
+}
+
+
+
+/* hover statement css */
+
+
+header.header_area ul li.FRANCHISE a:hover {
+    background: #EDADB1;
+}
+
+.site-btn a:hover {
+    background: #EDADB1;
+}
+
+button[type="submit"]:hover {
+    background: #EDADB1;
+}
+
+.footer-widget ul li a:hover {
+    color: #EDADB1;
 }

@@ -128,7 +128,7 @@ class Steps_Area_Widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'steps_title', [
 				'label' => __( 'Steps Title', 'plugin-domain' ),
-				'type' => \Elementor\Controls_Manager::TEXT,
+				'type' => \Elementor\Controls_Manager::TEXTAREA,
 				'default' => __( 'Franchise Request Form' , 'plugin-domain' ),
 				'label_block' => true,
 			]
@@ -136,6 +136,13 @@ class Steps_Area_Widget extends \Elementor\Widget_Base {
 		$repeater->add_control(
 			'steps_icon', [
 				'label' => __( 'Seps icon', 'plugin-domain' ),
+				'type' => \Elementor\Controls_Manager::MEDIA, 
+				'label_block' => true,
+			]
+		);
+		$repeater->add_control(
+			'steps_arrow', [
+				'label' => __( 'Seps arrow', 'plugin-domain' ),
 				'type' => \Elementor\Controls_Manager::MEDIA, 
 				'label_block' => true,
 			]
@@ -223,7 +230,8 @@ class Steps_Area_Widget extends \Elementor\Widget_Base {
 	        				</div>
 	        				<div class="stepos-icon">
 	        					<img src="<?php echo $steps_list['steps_icon']['url'] ?>" alt="">
-	        					<img src="<?php echo get_template_directory_uri(); ?>/assets/img/steps-arrow.png" alt="">
+	        					 
+	        					<img class="step-arrow" src="<?php echo $steps_list['steps_arrow']['url'] ?>" alt="">
 	        				</div>
 	        				<h3><?php echo $steps_list['steps_title']?></h3>
 	        				<div class="stpes-inner-content">

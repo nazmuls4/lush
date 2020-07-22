@@ -25,7 +25,7 @@
 <div id="page" class="site">
 
  	<!-- Start Header Area -->
-	<header class="header_area">
+	<header class="header_area" id="header_area">
 		<div class="main_menu">
 			<nav class="navbar navbar-expand-xl">
 				<div class="container-fluid">

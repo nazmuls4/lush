@@ -183,12 +183,12 @@ class contact_Area_Widget extends \Elementor\Widget_Base {
 ?>
 
     <section class="contact-area position-relative" style="background-image: url(<?php echo $contact_area_background['url'] ?>);">
-    	<div class="contact-form-area-top-shape">
+    	<div class="contact-form-area-top-left-shape">
     		<img src="<?php echo $contact_area_shape_top['url'] ?>" alt="">
     	</div>
         <div class="container-fluid">
         	<div class="row justify-content-lg-end">
-        		<div class="col-lg-8"> 
+        		<div class="col-lg-6"> 
     				<div class="section-title">
     					<?php if (!empty($section_subtitle)): ?>
         					<h3 class="lato"><?php echo $section_subtitle ?></h3>

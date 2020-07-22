@@ -218,9 +218,9 @@ class footer_info_Area_Widget extends \Elementor\Widget_Base {
     	 	</div>
 
     	 	<div class="row">
-				<?php foreach ($list as $key => $list_infobox): ?>
+				<?php $count = 0; foreach ($list as $key => $list_infobox): $count++; ?>
 					<div class="col-lg-4">
-	    	 			<div class="foonter-infobox text-center">
+	    	 			<div class="foonter-infobox text-center infobox-items-<?php echo $count ?>">
 	    	 				<div class="infobox-title">
 	    	 					<h2><?php echo $list_infobox['infobox_title'] ?></h2>
 	    	 				</div>
