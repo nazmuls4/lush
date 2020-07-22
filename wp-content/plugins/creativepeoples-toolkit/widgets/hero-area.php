@@ -193,16 +193,16 @@ class Hero_Area_Widget extends \Elementor\Widget_Base {
 
 ?>
 
-    <section class="hero-area vh-100 d-flex align-items-center">
-        <div class="container-fluid" style="background-image: url(<?php echo $hero_area_bg['url'] ?>)">
-        	<div class="hero-area-shape">
-        		<img src="<?php echo $hero_area_thumbnail['url'] ?>" alt="">
-        	</div>
+    <section class="hero-area vh-100 d-flex align-items-center" style="background-image: url(<?php echo $hero_area_bg['url'] ?>)">
+        <div class="container-fluid"> 
         	<div class="hero-area-outer-row">
         		<div class="row align-items-center">
         			<div class="col-lg-6">
-        				<div class="hero-area-inner-content">
-        					<h1 class="subtitle Karla"><?php echo $hero_sub_title ?></h1>
+        				<div class="hero-area-inner-content position-relativ">
+        					<div class="hero-area-shape">
+				        		<img src="<?php echo $hero_area_thumbnail['url'] ?>" alt="">
+				        	</div>
+        					<h1 class="subtitle Lato"><?php echo $hero_sub_title ?></h1>
         					<h1 class="big-title"><?php echo $hero_big_title ?></h1>
         					<div class="heo-content">
         						<?php echo $hero_description ?>

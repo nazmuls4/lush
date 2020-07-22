@@ -223,7 +223,9 @@ class Why_Area_Widget extends \Elementor\Widget_Base {
 	        			<div class="why-list">
 	        				<div class="why-header d-flex align-items-center">
 	        					<div class="whuy-icon">
-	        						<img src="<?php echo $single_list['why_icon']['url'] ?>" alt="">
+	        						<div class="why-icon-inner">
+	        							<img src="<?php echo $single_list['why_icon']['url'] ?>" alt="">
+	        						</div>
 	        					</div>
 	        					<div class="whuy-title">
 	        						<h3><?php echo $single_list['why_title']?></h3>

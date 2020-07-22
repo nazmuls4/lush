@@ -41,16 +41,16 @@ body {
 
 
 .Karla{
-    font-family: 'Karla', sans-serif;
+	font-family: 'Karla', sans-serif;
 }
 
 .Playfair{
-    font-family: 'Playfair Display', serif;
+	font-family: 'Playfair Display', serif;
 }
 
 
 .Lato{
-    font-family: 'Lato', sans-serif;
+ 	font-family: 'Lato', sans-serif;
 } 
 
 
@@ -383,18 +383,20 @@ section.about-area {
     font-size: 18px;
 }
 
- 
+section.about-area {
+    position: relative !important;
+}
 
 .about-description {
     margin-bottom: 23px;
 }
 
-.about-area-footer-shape {
+/* .about-area-footer-shape {
     position: absolute;
     right: 0;
     bottom: -29%;
     z-index: -1;
-}
+} */
 
 /* why ara css */
 
@@ -447,11 +449,12 @@ section.why-area:before {
     position: relative;
 }
 
- 
+.whuy-icon img {}
 
 .whuy-icon {
     margin-right: 15px;
-    text-align: center; 
+    text-align: center;
+    background: #fff;
 }
 
 .whuy-title h3 {
@@ -468,17 +471,3 @@ section.why-area:before {
     color: #313441;
 }
 
-
-.why-icon-inner {
-    width: 57px;
-    height: 57px;
-    background: #fff;
-    border-radius: 50%;
-    line-height: 50px;
-    box-shadow: 0px 10px 25px rgb(0 0 0 / .08);
-
-}
-
-.why-icon-inner img {
-    width: 17px;
-}

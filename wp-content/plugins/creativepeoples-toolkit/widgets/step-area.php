@@ -192,7 +192,7 @@ class Steps_Area_Widget extends \Elementor\Widget_Base {
 
 ?>
 
-    <section class="why-area position-relative">
+    <section class="steps-area position-relative">
     	<div class="steps-area-shape">
         	<img src="<?php echo $steps_shape['url'] ?>" alt="">
         </div> 

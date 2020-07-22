@@ -204,7 +204,7 @@ class About_Area_Widget extends \Elementor\Widget_Base {
         			<div class="about-area-inner-content text-center">
         				<div class="section-title">
         					<?php if (!empty($section_subtitle)): ?>
-	        					<h3 class="lato"><?php echo $section_subtitle ?></h3>
+	        					<h3 class="Lato"><?php echo $section_subtitle ?></h3>
 	        				<?php endif ?> 
 	        				<?php if (!empty($section_bigtitle)): ?>
 	        					<h1><?php echo $section_bigtitle ?></h1>

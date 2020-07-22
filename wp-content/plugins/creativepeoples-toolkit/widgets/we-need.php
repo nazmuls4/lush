@@ -210,7 +210,7 @@ class We_Need_Area_Widget extends \Elementor\Widget_Base {
 
 ?>
 
-    <section class="why-area position-relative">
+    <section class="we-needs position-relative">
         <div class="container">
         	<div class="row align-items-center">
 				<div class="col-lg-6">
