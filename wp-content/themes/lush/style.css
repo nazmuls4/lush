@@ -226,3 +226,60 @@ img {
 
 
 
+/* header area css */
+
+ 
+
+header.header_area ul li a {
+    text-transform: uppercase;
+    color: #313441;
+    font-size: 16px;
+    font-weight: 700;
+    margin-left: 30px;
+
+    display: inline-block;
+    line-height: 50px;
+}
+
+header.header_area nav {
+    padding: 0;
+}
+
+header.header_area .container-fluid {
+    max-width: 1500px;
+}
+
+a.navbar-brand {
+    display: inline-block;
+    margin: 0;
+     padding: 17px 0;
+}
+
+a.navbar-brand img {
+    max-height: 90px;
+    max-width: 170px;
+}
+
+
+
+
+header.header_area ul li {
+    display: inline-block;
+}
+ 
+ 
+
+header.header_area ul li.FRANCHISE a {
+    line-height: 70px;
+    padding: 0 30px !important;
+    display: inline-block;
+    background: #C4BBB6;
+    font-size: 18px;
+    color: #FFFFFF;
+}
+
+ 
+ 
+
+
+
